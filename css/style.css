@@ -7,3 +7,88 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+/* common */
+header {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    background-color: #0161ff;
+    padding: 10px 20px;
+}
+/*fine common */
+
+/* header */
+.info {
+    width: 40%;
+    float: left;
+}
+
+.info ul li{
+    display: inline;
+    list-style: none;
+}
+
+.info ul li a {
+    color: black;
+    padding: 0 30px;
+}
+
+/* header dx */
+.right {
+    text-align: right;
+    width: 44%;
+}
+
+#logo {
+    width: 10%;
+    float: left;
+    padding-left: 20px;
+}
+
+#logo a img {
+    vertical-align: middle;
+    margin-left: 20px;
+}
+/*fine header dx */
+
+
+/* header sx */
+#log-in {
+    width: 5%;
+    float: left;
+    text-align: right;
+    padding-right: 20px;
+}
+
+#log-in a {
+    color: white;
+}
+/*fine header sx */
+/*fine header  */
+
+/* jumbotron */
+/*fine jumbotron  */
+
+/* main */
+/*fine main  */
+
+/* footer */
+/*fine footer  */
