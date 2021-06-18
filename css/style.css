@@ -85,6 +85,11 @@ a:hover {
 /*fine header  */
 
 /* jumbotron */
+#jumbotron {
+    width: 100%;
+    height: 600px;
+    background-color: #b4d0e7;
+}
 /*fine jumbotron  */
 
 /* main */
