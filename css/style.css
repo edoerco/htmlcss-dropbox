@@ -33,6 +33,15 @@ a:hover {
     background-color: #0161ff;
     padding: 10px 20px;
 }
+
+.w-80 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.col {
+    float: left;
+}
 /*fine common */
 
 /* header */
@@ -81,14 +90,66 @@ a:hover {
 #log-in a {
     color: white;
 }
+
+#log-in a:hover {
+    text-decoration: none;
+}
 /*fine header sx */
 /*fine header  */
 
 /* jumbotron */
 #jumbotron {
     width: 100%;
-    height: 600px;
+    height: 800px;
     background-color: #b4d0e7;
+}
+
+#container-jumbo {
+    padding: 60px 0;
+}
+
+#container-jumbo h1 {
+    font-size: 80px;
+}   
+
+#row-jumbo {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.col-dx {
+    width: 70%;
+}
+
+.col-dx img {
+    max-width: 100%;
+    height: 550px;
+}
+
+.col-sx {
+    width: 30%;
+}
+
+.col-sx span {
+    display: block;
+    margin: 40px 0 15px;
+}
+
+.col-sx span a {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.col-sx span a:hover {
+    text-decoration: none;
+}
+
+.col-sx p {
+    margin-bottom: 20px;
+}
+
+.col-sx i {
+    font-size: 50px;
 }
 /*fine jumbotron  */
 
