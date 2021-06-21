@@ -200,17 +200,25 @@ a:hover {
 /*fine titolo e fatturazione */
 /* colonna */
 .col-piano {
-    width: 30%;
+    width: calc(100% / 3 - 20px);
     min-height: 1000px;
-    margin-top: 50px;
-    border: 1px solid grey;
+    margin: 50px 0px 0 0px;
+    border: 1px solid lightgrey;
+    float: left;
+}
+
+.col-piano-center {
+    width: calc((100% / 3) - 40px);
+    min-height: 1000px;
+    margin: 50px 40px 0;
+    border: 1px solid lightgrey;
     float: left;
 }
 
 .titolo-business {
     text-align: center;
     padding: 10px 0;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid lightgray;
 }
 
 .text-piano {
@@ -254,6 +262,10 @@ a:hover {
     color: white;
 }
 
+.prova-piano a:hover {
+    text-decoration: none;
+}
+
 .text-piano > p {
     margin-bottom: 20px;
 }
@@ -274,12 +286,45 @@ a:hover {
 .fa-check {
     color: blue;
 }
-
-
-
-
 /*fine colonna */
 
+/* parte inferiore piano  */
+.container-piano2 {
+    margin-top: 60px;
+    border: 1px solid lightgray;
+}
+
+.text-team {
+    width: 70%;
+    float: left;
+    padding-bottom: 40px;
+}
+
+.text-team h3 {
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.text-team h4 {
+    padding: 20px 0 30px;
+    font-weight: 700;
+}
+
+.text-team2 {
+    width: 30%;
+    float: right;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.text-team2 a {
+    color: white;
+}
+
+.text-team2 a:hover {
+    text-decoration: none;
+}
+/* fine parte inferiore piano  */
 /*fine piano */
 
 /*fine main  */
