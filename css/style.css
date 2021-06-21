@@ -160,6 +160,7 @@ a:hover {
 /*fine jumbotron  */
 
 /* piano */
+/* titolo e fatturazione */
 #container-piano {
     padding: 200px 0 0 0;
     background-color: green;
@@ -188,6 +189,16 @@ a:hover {
 .fake-text {
     margin-right: 20px;
 }
+/*fine titolo e fatturazione */
+/* colonna */
+.col-piano {
+    background-color:yellow;
+    width: 30%;
+    height: 1200px;
+    margin-top: 50px;
+}
+/*fine colonna */
+
 /*fine piano */
 
 /*fine main  */
