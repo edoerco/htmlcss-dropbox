@@ -478,9 +478,38 @@ h3 {
 /* fine team */
 /* start */
 .container-start {
+    position: relative;
     height: 20vw;
     width: 100%;
 }
+
+.row-start {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container-start h2 {
+    width: calc(45% - 40px);
+    float: left;
+    color: #61082b;
+    margin-left: 20px;
+}
+
+.container-start span {
+    width: calc(55% - 40px);
+    float: left;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.container-start span a {
+    background-color: white;
+    color: black;
+    padding: 10px 60px;
+}
+
 /* fine start */
 
 
