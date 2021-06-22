@@ -429,6 +429,10 @@ h3 {
 }
 /* fine team superiore */
 /* team inferiore */
+.row-team {
+    height: 30vw;
+}
+
 .col-team {
     float: left;
     height: 30vw;
@@ -472,6 +476,13 @@ h3 {
 }
 /*fine team inferiore */
 /* fine team */
+/* start */
+.container-start {
+    height: 20vw;
+    width: 100%;
+}
+/* fine start */
+
 
 /*fine main  */
 
