@@ -30,6 +30,7 @@ a:hover {
 }
 
 .btn {
+    display: inline-block;
     background-color: #0161ff;
     padding: 10px 20px;
 }
@@ -55,6 +56,10 @@ a:hover {
 
 .col {
     float: left;
+}
+
+a:hover {
+    text-decoration: none;
 }
 /*fine common */
 
@@ -105,9 +110,6 @@ a:hover {
     color: white;
 }
 
-#log-in a:hover {
-    text-decoration: none;
-}
 /*fine header sx */
 /*fine header  */
 
@@ -155,10 +157,6 @@ a:hover {
     margin-bottom: 30px;
 }
 
-.col-sx span a:hover {
-    text-decoration: none;
-}
-
 .col-sx p {
     margin-bottom: 20px;
 }
@@ -200,7 +198,7 @@ a:hover {
 /*fine titolo e fatturazione */
 /* colonna */
 .col-piano {
-    width: calc(100% / 3 - 20px);
+    width: calc((100% / 3) - 40px);
     min-height: 1000px;
     margin: 50px 0px 0 0px;
     border: 1px solid lightgrey;
@@ -247,7 +245,8 @@ a:hover {
     margin-bottom: 30px;
 }
 
-.offerte-piano p {
+.offerte-piano li {
+    list-style: none;
     margin-bottom: 20px;
 }
 
@@ -262,10 +261,6 @@ a:hover {
     color: white;
 }
 
-.prova-piano a:hover {
-    text-decoration: none;
-}
-
 .text-piano > p {
     margin-bottom: 20px;
 }
@@ -273,6 +268,12 @@ a:hover {
 .text-piano > p > a {
     text-decoration: underline;
     color: blue;
+}
+
+.line {
+    width: 50px;
+    border-bottom: 1px solid lightgray;
+    margin: 40px 0 60px;
 }
 
 .vantaggi-piano ul {
@@ -300,7 +301,8 @@ a:hover {
     padding-bottom: 40px;
 }
 
-.text-team h3 {
+.text-team h3,
+.text-partners h3 {
     margin-top: 30px;
     font-size: 25px;
 }
@@ -320,12 +322,39 @@ a:hover {
 .text-team2 a {
     color: white;
 }
-
-.text-team2 a:hover {
-    text-decoration: none;
-}
 /* fine parte inferiore piano  */
 /*fine piano */
+
+/* partners */
+.partners-container {
+    margin-top: 200px;
+}
+
+.img-partners {
+    width: 55%;
+}
+
+.img-partners img {
+    max-width: 100%;
+}
+
+.text-partners {
+    width: calc(45% - 10%);
+    margin-left: 10%;
+}
+
+.text-partners p {
+    padding-top: 30px;
+}
+
+.text-partners p a{
+    color: black;
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+
+/* fine partners */
 
 /*fine main  */
 
