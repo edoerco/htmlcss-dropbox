@@ -265,7 +265,7 @@ h3 {
 .col-piano-center {
     width: calc((100% / 3) - 40px);
     min-height: 1000px;
-    margin: 50px 40px 0;
+    margin: 50px 60px 0;
     border: 1px solid lightgrey;
     float: left;
 }
