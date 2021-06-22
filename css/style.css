@@ -165,7 +165,6 @@ a:hover {
     font-size: 50px;
 }
 /*fine jumbotron  */
-
 /* piano */
 /* titolo e fatturazione */
 #container-piano {
@@ -186,11 +185,6 @@ a:hover {
     border: 1px solid lightgray;
     margin-right: 5px;
 }
-
-/* .circle-blu {
-    border-radius: 50%;
-    border: 6px solid #0161ff;
-} */
 
 .fake-text {
     margin-right: 20px;
@@ -288,7 +282,6 @@ a:hover {
     color: blue;
 }
 /*fine colonna */
-
 /* parte inferiore piano  */
 .container-piano2 {
     margin-top: 60px;
@@ -324,7 +317,6 @@ a:hover {
 }
 /* fine parte inferiore piano  */
 /*fine piano */
-
 /* partners */
 .partners-container {
     margin-top: 200px;
@@ -353,7 +345,6 @@ a:hover {
     border: 1px solid black;
 }
 /* fine partners */
-
 /* operazioni */
 #operazioni {
     margin-top: 100px;
@@ -367,7 +358,7 @@ a:hover {
     width: 28%;
     display: inline-block;
     float: left;
-    padding: 30px 0;
+    padding: 30px 0 40px;
 }
 
 .text-card p span a{
@@ -390,8 +381,10 @@ a:hover {
 .text-card p {
     padding-top: 20px;
 }
-
 /* fine operazioni */
+/* team */
+
+/* fine team */
 
 /*fine main  */
 
